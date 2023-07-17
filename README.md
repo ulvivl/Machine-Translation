@@ -12,5 +12,5 @@ You can download the original dataset with `gdown --fuzzy "https://drive.google.
 
 - Secondly, the translation model was implemented using the [torch.nn.Transformer (https://pytorch.org/docs/stable/generated/torch.nn.Transformer.html#torch.nn.Transformer) class (`model.py`). The training procedure can be found in `train_model.py`. To measure the translation quality a metric `BLEU` was used. After training the model 2 types of decoding procedures were implemented: greedy decode and beam search decode (all functions can be found in `decoding.py`).
 
-### Training Examples
+## Training Examples
 Simple training procedure can be found in Machine_Translation.ipynb
